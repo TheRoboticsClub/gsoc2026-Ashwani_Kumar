@@ -1,0 +1,55 @@
+name: Deploy site
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: "3.2.2"
+          bundler-cache: true
+          working-directory: site
+
+      - name: Install system dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y imagemagick
+
+      - name: Install Python dependencies
+        run: |
+          pip3 install --upgrade pip
+          pip3 install jupyter
+
+      - name: Install Ruby dependencies
+        run: bundle install
+        working-directory: site
+
+      - name: Build site
+        run: |
+          export JEKYLL_ENV=production
+          bundle exec jekyll build \
+            --baseurl "/gsoc2026-Ashwani_Kumar" \
+            --destination ../docs
+        working-directory: site
+
+      - name: Add .nojekyll
+        run: touch docs/.nojekyll
+
+      - name: Commit built site into docs
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "Build static site into docs"
+          file_pattern: "docs/**"
