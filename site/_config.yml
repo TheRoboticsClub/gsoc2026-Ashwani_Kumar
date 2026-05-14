@@ -2,10 +2,10 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: "Ashwani Kumar: GSoC X JdeRobot 2026"
+title: "Ashwani Kumar Moudgil: GSoC X JdeRobot 2026"
 first_name: Ashwani
-middle_name:
-last_name: Kumar
+middle_name: Kumar
+last_name: Moudgil
 contact_note: >
   Feel free to reach out via email or GitHub.
 description: >
@@ -269,7 +269,7 @@ display_categories: [] # these categories will be displayed on the front page of
 # -----------------------------------------------------------------------------
 
 scholar:
-  last_name: [Kumar]
+  last_name: [Moudgil]
   first_name: [Ashwani]
 
   style: apa
