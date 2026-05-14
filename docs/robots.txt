@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://theroboticsclub.github.io/gsoc2026-Ashwani_Kumar/sitemap.xml
