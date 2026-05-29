@@ -16,7 +16,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/gsoc2026-Ashwani_Kumar/blog/";
           },
-        },{id: "post-hello-gsoc-2026",
+        },{id: "post-week-2-one-click-one-new-universe",
+        
+          title: "Week 2 — One click, one new universe",
+        
+        description: "Following a single click from the React UI all the way to `ros2 launch` — and slipping a brand-new Palletizing Harmonic world into that pipeline along the way.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/gsoc2026-Ashwani_Kumar/blog/2026/week2-palletizing-universe/";
+          
+        },
+      },{id: "post-hello-gsoc-2026",
         
           title: "Hello, GSoC 2026",
         
