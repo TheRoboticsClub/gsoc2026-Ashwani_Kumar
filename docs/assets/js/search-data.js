@@ -16,7 +16,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/gsoc2026-Ashwani_Kumar/blog/";
           },
-        },{id: "post-week-2-one-click-one-new-universe",
+        },{id: "post-week-3-setting-up-the-palletizing-world",
+        
+          title: "Week 3 — Setting up the Palletizing World",
+        
+        description: "Added a Palletizing Harmonic universe by reusing most of the Pick &amp; Place stack — a new SDF world, two launchers, and a SQL row to wire it up.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/gsoc2026-Ashwani_Kumar/blog/2026/week3-prs-shipped/";
+          
+        },
+      },{id: "post-week-2-one-click-one-new-universe",
         
           title: "Week 2 — One click, one new universe",
         
