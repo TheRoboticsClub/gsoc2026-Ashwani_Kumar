@@ -66,7 +66,7 @@ There's still a row needed in the `database` branch of RoboticsInfrastructure (`
 **Palletizing universe** — Gazebo Harmonic with the UR5, gripper, and six boxes:
 
 <video controls width="100%" style="max-width: 720px;">
-  <source src="/assets/video/palletizing_universe.mp4" type="video/mp4">
+  <source src="{{ '/assets/video/palletizing_universe.mp4' | relative_url }}" type="video/mp4">
   Your browser does not support the video tag.
 </video>
 
@@ -77,7 +77,7 @@ The conveyor in the existing Pick & Place world is a static mesh — it looks li
 On top of that I wrote a feeder script that spawns boxes one at a time from behind the belt, waits for each one to reach the arm pickup point, then spawns the next.
 
 <video controls width="100%" style="max-width: 720px;">
-  <source src="/assets/video/conveyer.mp4" type="video/mp4">
+  <source src="{{ '/assets/video/conveyer.mp4' | relative_url }}" type="video/mp4">
   Your browser does not support the video tag.
 </video>
 
