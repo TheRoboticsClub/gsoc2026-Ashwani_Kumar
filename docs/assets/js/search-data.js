@@ -16,7 +16,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/gsoc2026-Ashwani_Kumar/blog/";
           },
-        },{id: "post-week-3-setting-up-the-palletizing-world",
+        },{id: "post-week-4-a-moving-belt-and-a-vacuum-grip",
+        
+          title: "Week 4 — A moving belt and a vacuum grip",
+        
+        description: "Giving Palletizing its own branches and exercise, a real moving conveyor belt with a box-lifecycle node, and a suction-gripper variant of the UR5 — URDF, SRDF, controllers, and a patched link attacher.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/gsoc2026-Ashwani_Kumar/blog/2026/week4-conveyor-suction/";
+          
+        },
+      },{id: "post-week-3-setting-up-the-palletizing-world",
         
           title: "Week 3 — Setting up the Palletizing World",
         
