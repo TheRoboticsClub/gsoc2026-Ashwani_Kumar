@@ -16,11 +16,11 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/gsoc2026-Ashwani_Kumar/blog/";
           },
-        },{id: "post-week-6-getting-the-full-stack-live-and-calibrating-the-pick-motion",
+        },{id: "post-week-6-the-full-loop-belt-box-arm",
         
-          title: "Week 6 — Getting the full stack live and calibrating the pick motion...",
+          title: "Week 6 — The full loop: belt, box, arm",
         
-        description: "Four launch blockers cleared, the suction HAL wired up, and the first real calibration runs of the UR10 arm — finding the cup-down orientation, diagnosing a missing IK solver, and getting MoveL descent working reliably.",
+        description: "The palletizing stack ran end-to-end for the first time — four launch bugs cleared, the conveyor handshake wired up, the suction HAL fixed, and the arm finally reaching the box with the cup pointing down.",
         section: "Posts",
         handler: () => {
           
