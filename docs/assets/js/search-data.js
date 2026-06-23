@@ -16,7 +16,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/gsoc2026-Ashwani_Kumar/blog/";
           },
-        },{id: "post-week-4-a-moving-belt-and-a-vacuum-grip",
+        },{id: "post-week-5-swapping-in-the-ur10-and-cleaning-up-the-framework",
+        
+          title: "Week 5 — Swapping in the UR10 and cleaning up the framework",
+        
+        description: "Upgrading the palletizing arm from UR5 to UR10, parameterizing a hardcoded group name buried in shared C++, renaming files to mean what they say, and fixing a ghost mesh package along the way.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/gsoc2026-Ashwani_Kumar/blog/2026/week5-ur10-arm/";
+          
+        },
+      },{id: "post-week-4-a-moving-belt-and-a-vacuum-grip",
         
           title: "Week 4 — A moving belt and a vacuum grip",
         
