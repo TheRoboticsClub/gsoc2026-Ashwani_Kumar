@@ -16,7 +16,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/gsoc2026-Ashwani_Kumar/blog/";
           },
-        },{id: "post-week-5-swapping-in-the-ur10-and-cleaning-up-the-framework",
+        },{id: "post-week-6-getting-the-full-stack-live-and-calibrating-the-pick-motion",
+        
+          title: "Week 6 — Getting the full stack live and calibrating the pick motion...",
+        
+        description: "Four launch blockers cleared, the suction HAL wired up, and the first real calibration runs of the UR10 arm — finding the cup-down orientation, diagnosing a missing IK solver, and getting MoveL descent working reliably.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/gsoc2026-Ashwani_Kumar/blog/2026/week6-stack-up-calibration/";
+          
+        },
+      },{id: "post-week-5-swapping-in-the-ur10-and-cleaning-up-the-framework",
         
           title: "Week 5 — Swapping in the UR10 and cleaning up the framework",
         
