@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Week 6 — Getting the full stack live and calibrating the pick motion"
-date: 2026-06-24
+date: 2026-06-23
 description: Four launch blockers cleared, the suction HAL wired up, and the first real calibration runs of the UR10 arm — finding the cup-down orientation, diagnosing a missing IK solver, and getting MoveL descent working reliably.
 tags: [gsoc, roboticsacademy, gazebo-harmonic, ros2, moveit, ur10, suction]
 categories: [updates]
