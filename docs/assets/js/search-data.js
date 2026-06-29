@@ -16,7 +16,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/gsoc2026-Ashwani_Kumar/blog/";
           },
-        },{id: "post-week-6-the-full-loop-belt-box-arm",
+        },{id: "post-week-7-stacking-boxes-and-getting-the-paths-clean",
+        
+          title: "Week 7 — Stacking boxes and getting the paths clean",
+        
+        description: "The pick-and-place loop now runs end to end — boxes get stacked on the pallet, the arm stops taking 360° detours after a joint-limit fix, and the conveyor handshake moved into the HAL so the student code is pure API.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/gsoc2026-Ashwani_Kumar/blog/2026/week7-stacking-and-clean-paths/";
+          
+        },
+      },{id: "post-week-6-the-full-loop-belt-box-arm",
         
           title: "Week 6 — The full loop: belt, box, arm",
         
