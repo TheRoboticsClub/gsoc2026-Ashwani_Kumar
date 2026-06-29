@@ -95,6 +95,7 @@ blog_name: GSoC 2026 Blog
 blog_description: progress notes from my Google Summer of Code project with JdeRobot
 permalink: /blog/:year/:title/
 lsi: false # produce an index for related posts
+future: true # publish posts dated today/in the future (default is false, which silently drops them)
 
 # Pagination
 pagination:
