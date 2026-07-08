@@ -16,7 +16,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/gsoc2026-Ashwani_Kumar/blog/";
           },
-        },{id: "post-week-7-stacking-boxes-and-getting-the-paths-clean",
+        },{id: "post-week-8-polishing-on-mentors-39-feedback",
+        
+          title: "Week 8 — Polishing on mentors&#39; feedback",
+        
+        description: "A full pass over the mentors&#39; review notes — the world relaid so the robot works one end of the belt, palletizing-only joint limits that force a tidy clockwise swing, the conveyor and pallet fed to MoveIt as collision objects, and a UR10 that finally moves predictably.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/gsoc2026-Ashwani_Kumar/blog/2026/week8-mentor-polish/";
+          
+        },
+      },{id: "post-week-7-stacking-boxes-and-getting-the-paths-clean",
         
           title: "Week 7 — Stacking boxes and getting the paths clean",
         
