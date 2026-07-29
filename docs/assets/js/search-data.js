@@ -16,7 +16,40 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/gsoc2026-Ashwani_Kumar/blog/";
           },
-        },{id: "post-week-8-polishing-on-mentors-39-feedback",
+        },{id: "post-week-11-a-slower-week-and-more-sku-planning",
+        
+          title: "Week 11 — A slower week and more SKU planning",
+        
+        description: "This was a lighter week because I was ill, so there was no major implementation milestone. I used the time I had to review the SKU-based palletizing direction, think through the student-facing API boundary, and plan the next collision and placement steps.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/gsoc2026-Ashwani_Kumar/blog/2026/week11-slow-week-sku-exploration/";
+          
+        },
+      },{id: "post-week-10-starting-sku-based-palletizing",
+        
+          title: "Week 10 — Starting SKU-based palletizing",
+        
+        description: "The exercise started moving from one fixed box size and hardcoded 2×2×2 targets toward SKU-based online palletizing, with task metadata in YAML, dynamic box generation, box and pallet info topics, HAL accessors, and a first row/shelf placement planner.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/gsoc2026-Ashwani_Kumar/blog/2026/week10-sku-based-palletizing/";
+          
+        },
+      },{id: "post-week-9-syncing-the-palletizing-exercise-with-upstream",
+        
+          title: "Week 9 — Syncing the palletizing exercise with upstream",
+        
+        description: "The palletizing branches caught up with JdeRobot upstream — Worlds became Scenes, universe records moved to the new world/scene schema, IDs changed to exercise 30 and world 73, and the UR10 MoveIt group setup converged with upstream&#39;s ROB_GROUP parameter.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/gsoc2026-Ashwani_Kumar/blog/2026/week9-upstream-sync/";
+          
+        },
+      },{id: "post-week-8-polishing-on-mentors-39-feedback",
         
           title: "Week 8 — Polishing on mentors&#39; feedback",
         
