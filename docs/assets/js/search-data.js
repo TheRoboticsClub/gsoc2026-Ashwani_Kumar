@@ -16,7 +16,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/gsoc2026-Ashwani_Kumar/blog/";
           },
-        },{id: "post-week-11-a-slower-week-and-more-sku-planning",
+        },{id: "post-week-12-one-workcell-many-palletizing-patterns",
+        
+          title: "Week 12 — One workcell, many palletizing patterns",
+        
+        description: "This week the palletizing exercise progressed from one fixed stack into an SKU-based pattern playground. The same UR10, conveyor, and box metadata pipeline now support row, brick, rotated-block, and pinwheel-style pallet layouts.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/gsoc2026-Ashwani_Kumar/blog/2026/week12-sku-palletizing-patterns/";
+          
+        },
+      },{id: "post-week-11-a-slower-week-and-more-sku-planning",
         
           title: "Week 11 — A slower week and more SKU planning",
         
