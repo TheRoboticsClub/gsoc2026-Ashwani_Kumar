@@ -16,7 +16,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/gsoc2026-Ashwani_Kumar/blog/";
           },
-        },{id: "post-week-12-one-workcell-many-palletizing-patterns",
+        },{id: "post-week-13-palletizing-arrives-in-roboticsacademy",
+        
+          title: "Week 13 — Palletizing arrives in RoboticsAcademy",
+        
+        description: "This week the palletizing exercise moved from native simulation into the RoboticsAcademy browser workflow. Matched RADI images launched the Gazebo Harmonic workcell, UR10, MoveIt, RViz, console, and an 18-box palletizing run through the Academy interface.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/gsoc2026-Ashwani_Kumar/blog/2026/week13-palletizing-in-roboticsacademy/";
+          
+        },
+      },{id: "post-week-12-one-workcell-many-palletizing-patterns",
         
           title: "Week 12 — One workcell, many palletizing patterns",
         
