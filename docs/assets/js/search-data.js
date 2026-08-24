@@ -16,7 +16,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/gsoc2026-Ashwani_Kumar/blog/";
           },
-        },{id: "post-week-13-palletizing-arrives-in-roboticsacademy",
+        },{id: "post-",
+        
+          title: "",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/gsoc2026-Ashwani_Kumar/blog/2026/2026-08-24-gsoc-final-report/";
+          
+        },
+      },{id: "post-week-13-palletizing-arrives-in-roboticsacademy",
         
           title: "Week 13 — Palletizing arrives in RoboticsAcademy",
         
