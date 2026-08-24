@@ -18,7 +18,7 @@ ninja.data = [{
           },
         },{id: "post-gsoc-2026-final-report-from-palletizing-to-depalletizing",
         
-          title: "GSoC 2026 Final Report — From Palletizing to Depalletizing",
+          title: "GSoC 2026 Final Report: From Palletizing to Depalletizing",
         
         description: "From a borrowed Pick and Place scene to two browser-based industrial manipulation exercises: a complete SKU-based Palletizing exercise and an additional three-layer Depalletizing and sorting exercise for RoboticsAcademy.",
         section: "Posts",
