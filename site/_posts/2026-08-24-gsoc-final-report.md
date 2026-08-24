@@ -1,11 +1,26 @@
 ---
 layout: post
-title: "GSoC 2026 Final Report — From Palletizing to Depalletizing"
+title: "GSoC 2026 Final Report: From Palletizing to Depalletizing"
 date: 2026-08-24
 description: "From a borrowed Pick and Place scene to two browser-based industrial manipulation exercises: a complete SKU-based Palletizing exercise and an additional three-layer Depalletizing and sorting exercise for RoboticsAcademy."
 tags: [gsoc, roboticsacademy, palletizing, depalletizing, gazebo-harmonic, ros2, moveit]
 categories: [final-report]
 ---
+
+<style>
+.post-content #markdown-content table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1rem 0 1.5rem;
+}
+
+.post-content #markdown-content table th,
+.post-content #markdown-content table td {
+  border: 1px solid var(--global-divider-color, #6c757d);
+  padding: 0.65rem 0.75rem;
+  vertical-align: top;
+}
+</style>
 
 > *Google Summer of Code 2026 · JdeRobot · RoboticsAcademy*
 
@@ -243,8 +258,8 @@ The main Palletizing contribution is split across the two repositories used by R
 
 | Repository | Pull request | Main contribution |
 |---|---|---|
-| RoboticsAcademy | [#3965 — Add SKU-based Palletizing exercise](https://github.com/JdeRobot/RoboticsAcademy/pull/3965) | Exercise registration, browser template, HAL, and student scaffolding |
-| RoboticsInfrastructure | [#791 — Add SKU-based UR10 Palletizing exercise](https://github.com/JdeRobot/RoboticsInfrastructure/pull/791) | Workcell, UR10 suction robot, conveyor feeder, MoveIt setup, and SKU infrastructure |
+| RoboticsAcademy | [#3965: Add SKU-based Palletizing exercise](https://github.com/JdeRobot/RoboticsAcademy/pull/3965) | Exercise registration, browser template, HAL, and student scaffolding |
+| RoboticsInfrastructure | [#791: Add SKU-based UR10 Palletizing exercise](https://github.com/JdeRobot/RoboticsInfrastructure/pull/791) | Workcell, UR10 suction robot, conveyor feeder, MoveIt setup, and SKU infrastructure |
 
 Both PRs are intentionally focused on the primary Palletizing exercise; the additional Depalletizing extension is presented separately in this report.
 
@@ -293,6 +308,6 @@ These additions can deepen the planning problem without changing the core educat
 
 ## Thank you
 
-Google Summer of Code gave me the opportunity to work across simulation, robot modeling, motion planning, containers, browser integration, and educational API design. I am grateful to my mentors, the JdeRobot maintainers, and the wider ROS 2, Gazebo, and MoveIt communities for their guidance and open-source work.
+Google Summer of Code gave me the opportunity to work across simulation, robot modeling, motion planning, containers, browser integration, and educational API design. I am especially grateful to my mentors, **José María Cañas** and **Shu Xiao**, as well as the JdeRobot maintainers and the wider ROS 2, Gazebo, and MoveIt communities for their guidance and open-source work.
 
-The summer began with a world that could display boxes beside a robot. It ends with two educational manipulation exercises that move those boxes in opposite directions while exposing meaningful planning decisions to learners. That change—from a scene into a learning activity—is the result I am most proud of.
+The summer began with a world that could display boxes beside a robot. It ends with two educational manipulation exercises that move those boxes in opposite directions while exposing meaningful planning decisions to learners. That change, from a scene into a learning activity, is the result I am most proud of.
