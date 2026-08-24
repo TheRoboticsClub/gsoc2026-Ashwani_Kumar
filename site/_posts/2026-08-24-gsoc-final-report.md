@@ -2,7 +2,7 @@
 layout: post
 title: "GSoC 2026 Final Report — From Palletizing to Depalletizing"
 date: 2026-08-24
-description: From a borrowed Pick and Place scene to two browser-based industrial manipulation exercises: a complete SKU-based Palletizing exercise and an additional three-layer Depalletizing and sorting exercise for RoboticsAcademy.
+description: "From a borrowed Pick and Place scene to two browser-based industrial manipulation exercises: a complete SKU-based Palletizing exercise and an additional three-layer Depalletizing and sorting exercise for RoboticsAcademy."
 tags: [gsoc, roboticsacademy, palletizing, depalletizing, gazebo-harmonic, ros2, moveit]
 categories: [final-report]
 ---
