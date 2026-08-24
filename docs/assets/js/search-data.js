@@ -16,15 +16,15 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/gsoc2026-Ashwani_Kumar/blog/";
           },
-        },{id: "post-",
+        },{id: "post-gsoc-2026-final-report-from-palletizing-to-depalletizing",
         
-          title: "",
+          title: "GSoC 2026 Final Report — From Palletizing to Depalletizing",
         
-        description: "",
+        description: "From a borrowed Pick and Place scene to two browser-based industrial manipulation exercises: a complete SKU-based Palletizing exercise and an additional three-layer Depalletizing and sorting exercise for RoboticsAcademy.",
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/gsoc2026-Ashwani_Kumar/blog/2026/2026-08-24-gsoc-final-report/";
+            window.location.href = "/gsoc2026-Ashwani_Kumar/blog/2026/gsoc-final-report/";
           
         },
       },{id: "post-week-13-palletizing-arrives-in-roboticsacademy",
